@@ -1,0 +1,81 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:44330dc4-7d34-4d62-af4b-7b72874ff0ff
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+				<CODE>0
+				<SEVERITY>INFO
+				<MESSAGE>SUCCESS
+            </STATUS>
+            <DTSERVER>20180329101642.840[-4:EDT]
+			<LANGUAGE>ENG
+			<DTPROFUP>20170221122310.127[-5:EST]
+			<DTACCTUP>20170209023009.513[-5:EST]
+            <FI>
+            	<ORG>sunfin.com
+            	<FID>99ABC
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <SIGNUPMSGSRSV1>
+        <ACCTINFOTRNRS>
+        	<TRNUID>3f495089-5cfb-4226-9d92-5586ef9ec7e2
+            <STATUS>
+	            <CODE>0
+	            <SEVERITY>INFO
+	            <MESSAGE>SUCCESS
+            </STATUS>
+            <ACCTINFORS>
+            	<DTACCTUP>20170209023009.513[-5:EST]
+                <ACCTINFO>
+                	<DESC>INVESTMENT
+                    <INVACCTINFO>
+                        <INVACCTFROM>
+                        	<BROKERID>sunfin.com
+                        	<ACCTID>87209442
+                        </INVACCTFROM>
+                        <USPRODUCTTYPE>NORMAL
+                        <CHECKING>N
+                        <SVCSTATUS>ACTIVE
+                        <INVACCTTYPE>INDIVIDUAL
+                    </INVACCTINFO>
+                </ACCTINFO>
+                <ACCTINFO>                
+                	<DESC>INVESTMENT2
+                    <INVACCTINFO>
+                        <INVACCTFROM>
+                        	<BROKERID>sunfin.com
+                        	<ACCTID>87209442
+                        </INVACCTFROM>
+                        <USPRODUCTTYPE>NORMAL
+                        <CHECKING>N
+                        <SVCSTATUS>ACTIVE
+                        <INVACCTTYPE>INDIVIDUAL
+                    </INVACCTINFO>
+                </ACCTINFO>
+                <ACCTINFO>
+                	<DESC>INVESTMENT3
+                    <INVACCTINFO>
+                        <INVACCTFROM>
+                        	<BROKERID>sunfin.com
+                        	<ACCTID>87209442
+                        </INVACCTFROM>
+                        <USPRODUCTTYPE>NORMAL
+                        <CHECKING>N
+                        <SVCSTATUS>ACTIVE
+                        <INVACCTTYPE>INDIVIDUAL
+                    </INVACCTINFO>
+                </ACCTINFO>
+            </ACCTINFORS>
+        </ACCTINFOTRNRS>
+    </SIGNUPMSGSRSV1>
+</OFX>
