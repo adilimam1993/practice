@@ -1,0 +1,13 @@
+ vertx = Vertx.vertx();
+
+        Gson gson = new Gson();
+// Read the configuration file
+        try {
+             config = gson.fromJson(new FileReader("src/main/conf/FSVX.json"), Properties.class);
+        }
+        catch (FileNotFoundException e) {
+            System.err.println("FileNotFoundException ||"+e.toString());
+        }
+
+        vertx.deployVerticle(MovieVerticle.class.getName(),
+                context.asyncAssertSuccess());
